@@ -1,4 +1,8 @@
-"""See samples/ for how to use this."""
+"""An example of using frontend_testing_helper with flask as a sample framework.
+
+The code will work with any framework, just modify the _GetEndpointsList
+accordingly.
+"""
 
 import unittest
 
@@ -20,6 +24,8 @@ class FlaskSampleCodeTest(FrontendTestBase):
 
   @classmethod
   def _GetEndpointsList(cls):
+    """This must be over-ridden with framework specific code for extracting list
+    of all url endpoints."""
     endpoint_list = list()
     for rule in flask_sample_code.app.url_map.iter_rules():
       if rule.endpoint != 'static':
