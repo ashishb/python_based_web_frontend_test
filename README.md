@@ -12,3 +12,7 @@ To use this framework
 See
 https://github.com/ashishb/python_based_web_frontend_test/blob/master/samples/flask_sample_code_test.py
 for an example.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ashishb/python_based_web_frontend_test/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
