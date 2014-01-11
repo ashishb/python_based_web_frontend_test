@@ -1,7 +1,6 @@
-python_based_web_frontend_test
+python based web frontend test
 ==============================
 
-<<<<<<< HEAD
 A testing framework for testing (and ensuring) that all web based end points are tested (at least once).
 
 To use this framework
