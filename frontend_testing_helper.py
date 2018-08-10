@@ -40,6 +40,6 @@ class FrontendTestBase(unittest.TestCase):
     failed = False
     for x in self._GetEndpointsList():
       if _endpoints_testers.get(x, None) is None:
-        print '%s is not tested.' % x
+        print('%s is not tested.' % x)
         failed = True
     self.assertFalse(failed, 'Some paths are missing tests.')

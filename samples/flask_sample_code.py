@@ -17,7 +17,7 @@ def path2(ip):
 def main():
   app.debug = True
   port = 1025
-  print 'Starting plain-text HTTP server on port %d.' % port
+  print('Starting plain-text HTTP server on port %d.' % port)
   app.run(host='0.0.0.0', port=port, threaded=True)
 
 
