@@ -1,7 +1,4 @@
-python based web frontend test
-==============================
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ashishb/python_based_web_frontend_test/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# Python Flask web frontend test checker [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 
 A testing framework for testing (and ensuring) that all web based end points are tested (at least once).
