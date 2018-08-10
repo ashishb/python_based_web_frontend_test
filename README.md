@@ -12,9 +12,7 @@ To use this framework
 
 2. Declare which method tests which end point by applying the decorator FrontendTestBase.Tests('/url-endpoint/') to test method.
 
-See
-https://github.com/ashishb/python_based_web_frontend_test/blob/master/samples/flask_sample_code_test.py
-for an example.
+See [sample code](https://github.com/ashishb/python_based_web_frontend_test/blob/master/samples/flask_sample_code_test.py) as an example.
 
 
 
